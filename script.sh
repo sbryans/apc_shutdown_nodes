@@ -23,8 +23,6 @@ wake_machines(){
 
 shutdown_master(){
     # Shutdown Master Control Node
-    echo "Shutting down Master Control Node in 10 seconds..."
-    sleep 10
     echo "APC UPS fell below threshold. Shutdown sequence in 30 seconds." | /usr/local/bin/mail.php -s"APC UPS detected power failure and shutdown sequence started. Run < shutdown -c > on the node to cancel."
     sleep 30
     /sbin/shutdown
