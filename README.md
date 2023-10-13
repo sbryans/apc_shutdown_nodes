@@ -12,7 +12,7 @@ Add the following at the bottom of the file replacing **non_root_user_name** wit
 
 ## How to check the slave hardware for WOL capabilities:
 1. Determine if [WOL](https://command-not-found.com/wol) is available on the slave.
-> There are plenty of ways to check if WOL is available on your NIC.
+> There are plenty of ways to check if WOL is available for your NIC.
 Always check your hardware.
 
 ```lshw```
